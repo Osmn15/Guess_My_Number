@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #3f3939;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Number Container */
+.number-container {
+    background: rgb(230, 225, 225);
+    color: rgb(72, 27, 27);
+    font-size: 3rem;
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/* Game Container */
+.game-container {
+    margin-top: 20px;
+}
+
+/* Input */
+.guess-input {
+    font-size: 1.4rem;
+    padding: 10px;
+    width: 90px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.check-btn {
+    background-color: rgb(9, 102, 9);
+    color: white;
+}
+
+.reset-btn {
+    background-color: rgb(228, 22, 22);
+    color: white;
+}
+
+/* Message & Score */
+.message {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.score, .highscore {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
